@@ -18,6 +18,7 @@ export class App extends React.Component<
     render() {
         return(
             <div id="page">
+<div id="top">
                 <div id="header">
                     <h1>
                         Mimosas and Business
@@ -26,17 +27,20 @@ export class App extends React.Component<
                 <div id="nav">
                     <ul>
                         <li>
-                            Home
+                            <a href="#">Home</a>
+                            <span>&nbsp;|&nbsp;</span>
                         </li>
                         <li>
-                            Episodes
+                        <a href="#">Episodes</a>
+                        <span>&nbsp;|&nbsp;</span>
                         </li>
                         <li>
-                            About
+                            <a href="#">About</a>
                         </li>
                     </ul>
                 </div>
-            </div>
-        )
-    }
+                </div>
+            </div>
+        )
+    }
 }

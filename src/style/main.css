@@ -5,3 +5,48 @@
     --lightgrey: #E2E2E3;
     --darkgrey: #292929;
 }
+
+body {
+    background-color: var(--lightgrey);
+    color: var(--darkblue);
+    margin:0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 6em;
+    font-family: 'Roboto';
+    margin:0;
+}
+
+#nav {
+    text-align:center;
+    font-size:3em;
+}
+
+#nav li {
+    list-style-type:none;
+    display:inline-block;
+    width:33%;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: var(--darkblue);
+    display:inline-block;
+}
+
+#nav li a:hover {
+    color: var(--pink);
+    font-weight: bold;
+}
+
+ul {
+    width: 50%;
+    margin:auto;
+}
+
+#top {
+    background-color: var(--lightblue);
+    margin:0;
+}
